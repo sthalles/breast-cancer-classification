@@ -1,0 +1,10 @@
+model_name: Xception # DenseNet121 # Xception # ResNet50V2, ResNet50V2, MobileNetV2
+train:
+  batch_size: 64
+  epochs: 100
+  learning_rate: 0.00003
+
+model_params:
+  l2_penalty: 0.0002
+  input_shape: [96,96,3]
+  dropout: 0.4
